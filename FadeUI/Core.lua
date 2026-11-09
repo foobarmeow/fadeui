@@ -131,6 +131,8 @@ FadeUI.GROUPS = {
 		{ key = "xp",      label = "XP / Rep Bars",     frames = { "MainStatusTrackingBarContainer", "SecondaryStatusTrackingBarContainer" }, default = "never" },
 		{ key = "cdm",     label = "Cooldown Manager",  frames = { "EssentialCooldownViewer", "UtilityCooldownViewer", "BuffIconCooldownViewer", "BuffBarCooldownViewer" }, default = "never", direct = true },
 		{ key = "meter",   label = "Damage Meter",      frames = { "DamageMeter" },         default = "never" },
+		{ key = "trp3",    label = "TRP3 Toolbar",      frames = { "TRP3_ToolbarFrame" },   default = "always",
+		  note = "Total RP 3's toolbar. It only shows when TRP3's own toolbar setting has it showing." },
 	}},
 }
 
